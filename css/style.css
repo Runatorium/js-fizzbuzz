@@ -1,23 +1,22 @@
-
+body{
+    background-color: rgb(114, 124, 214);
+}
 
 .d-flex{
     display: flex;
-}
-
-.maincontainer{
-    background-color: rgb(38, 60, 99);
     justify-content: center;
 }
 
 .container{
     width: 85%;
     height: 100%;
+    align-self: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.square{
+div{
     width: 10%;
     height: 100px;
     padding: 6px;
@@ -27,32 +26,24 @@
     border: 1px solid grey;
 }
 
-.square-fizzbuzz{
-    width: 10%;
-    height: 100px;
-    padding: 6px;
-    margin-top: 15px;
-    text-align: center;
+.fizzbuzz{
+   
     background-color: rgb(110, 32, 116);
-    border: 1px solid grey;
+   
 }
 
-.square-fizz{
-    width: 10%;
-    height: 100px;
-    padding: 6px;
-    margin-top: 15px;
-    text-align: center;
+.fizz{
+    
     background-color: rgb(115, 201, 222);
-    border: 1px solid grey;
+    
 }
 
-.square-buzz{
-    width: 10%;
-    height: 100px;
-    padding: 6px;
-    margin-top: 15px;
-    text-align: center;
+.buzz{
+   
     background-color: rgb(115, 222, 131);
-    border: 1px solid grey;
+    
+}
+
+.square{
+   background: rgb(142, 113, 215);
 }
