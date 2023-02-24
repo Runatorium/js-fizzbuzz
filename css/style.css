@@ -22,18 +22,37 @@
     height: 100px;
     padding: 6px;
     margin-top: 15px;
-    background-color: rgb(115, 128, 222);
+    text-align: center;
+    background-color: rgb(114, 124, 214);
     border: 1px solid grey;
 }
 
-.fizz{
-    background-color: aqua;  
+.square-fizzbuzz{
+    width: 10%;
+    height: 100px;
+    padding: 6px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(110, 32, 116);
+    border: 1px solid grey;
 }
 
-.buzz{
-    background-color: brown; 
+.square-fizz{
+    width: 10%;
+    height: 100px;
+    padding: 6px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(115, 201, 222);
+    border: 1px solid grey;
 }
 
-.fizzbuzz{
-    background-color: blueviolet;
+.square-buzz{
+    width: 10%;
+    height: 100px;
+    padding: 6px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(115, 222, 131);
+    border: 1px solid grey;
 }
