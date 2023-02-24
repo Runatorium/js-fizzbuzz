@@ -1,0 +1,42 @@
+
+
+.d-flex{
+    display: flex;
+}
+
+.maincontainer{
+    background-color: cornflowerblue;
+    justify-content: center;
+}
+
+.container{
+    width: 85%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.square{
+    width: 10%;
+    height: 100px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: grey;
+    border-style: groove;
+}
+
+.fizz{
+    background-color: aqua;
+    border-style: groove;
+}
+
+.buzz{
+    background-color: brown;
+    border-style: groove;
+}
+
+.fizzbuzz{
+    background-color: blueviolet;
+    border-style: groove;
+}
